@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url("assets/img/fondo.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.link{
+    width: 40%;
+    float: left;
+    text-align: left;
+}
+.redes{
+    width: 49%;
+    float: left;
+    text-align: right;
+}
+.descripcion{
+    padding: 10px;
+    padding-top: 40px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    background-color: blanchedalmond;
+    height: 360px;
+}
+.descripcion h1{
+    color: mediumseagreen;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video{
+    padding-top: 40px;;
+    width: 48%;
+    float: left;
+    text-align: right;
+    background-color: black;
+    height: 360px;
+    text-align: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    color: aliceblue;
+    list-style: none;
+
+}
+nav ul li a{
+    color: aliceblue;
+}
+table{
+    color: white;
+    float: left;
+    opacity: 50%;
+    background-color: black;
+    border:1px solid white;
+    border-collapse: collapse;
+}
+table tr th {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    border:1px solid white;
+    background-color: darkgoldenrod;
+    color: black;
+}
+table tr td{
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    border:1px solid white;
+    padding: 20px;
+}
+table tr td:nth-child(5){
+    text-align: center;
+}
+footer{
+    padding-top: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    color: blanchedalmond;
+    text-align: center;
+}
+button{
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    display: block;
+}
